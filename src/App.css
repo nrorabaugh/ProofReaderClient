@@ -1,0 +1,316 @@
+.App {
+  text-align: center;
+}
+
+html, body {
+  margin: 0;
+  padding: 0;
+}
+
+h2 {
+  color: green;
+  font-weight: 200;
+}
+
+#incorrect {
+  color: white;
+}
+
+input {
+  margin: 10px auto;
+  font-size: 18pt;
+}
+
+#student {
+  font-size: 20pt;
+  margin: 40px;
+  padding: 10px;
+  border-radius: 10pt;
+}
+
+#teacher {
+  font-size: 20pt;
+  margin: 40px;
+  padding: 10px;
+  border-radius: 10pt;
+}
+
+textarea {
+  font-size: 16pt;
+  width: 50%;
+  margin: 0 auto;
+}
+
+.vertForm {
+  display: flex;
+  flex-direction: column;
+}
+
+.assignment {
+  text-decoration: none;
+  color: green;
+  text-align: left;
+}
+
+.subtitle {
+  color: gray; 
+}
+
+.pageWrapper {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  width: 100%;
+  min-height: 90vh;
+}
+
+.header {
+  background-color: tan;
+  padding: 0;
+  margin: 0;
+  width: 100%;
+}
+
+.banner {
+  margin: 0;
+  background-color: green;
+  padding: 20px;
+}
+
+.banner h1 {
+  margin: 0;
+  font-size: 48pt;
+  font-weight: 100;
+  color: white;
+}
+
+.assignmentList {
+  margin: 50px 0 50px 200px;
+  display: flex;
+  justify-content: flex-end;
+  flex-direction: column-reverse;
+  flex-wrap: wrap;
+}
+
+.message {
+  background-color: gray;
+  padding: 5px 10px;
+  margin: 10px;
+  text-align: left;
+  overflow-wrap: break-word;
+}
+
+.message p {
+  margin: 0;
+  padding: 0;
+  max-width: 100%;
+}
+
+.assignmentThumb {
+  margin: 10px 100px;
+  width: 400px;
+  border-radius: 10px;
+  height: 80px;
+  background-color: lightgray;
+  padding: 20px;
+}
+
+.assignmentContent {
+  margin: 30px;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.placeholder {
+  color: lightgreen;
+}
+
+.switch {
+  width: 600px;
+  height: 500px;
+  position: relative;
+}
+
+.position {
+  margin: -30px;
+}
+
+.switchButtonBar {
+  position: absolute;
+  bottom: 10px;
+}
+
+.chat {
+  width: 400px;
+  height: 500px;
+  border: solid lightgray 3px;
+  border-radius: 10px;
+  position: relative;
+}
+
+.assignmentThumb p {
+  font-size: 20pt;
+  margin: auto;
+}
+
+.header p {
+  padding: 40px;
+  margin: 0;
+  font-size: 32pt;
+  color: navy;
+}
+
+.scorecard {
+  margin: 50px;
+  background-color: lightgray;
+  width: 300px;
+  height: 250px;
+  border-radius: 15px;
+}
+
+#messageInput {
+  width: 100%;
+  position: absolute;
+  bottom: 10px;
+}
+
+#messageInputBox {
+  width: 300px;
+}
+
+.calcContent {
+  padding: 0;
+  margin: 0;
+}
+
+.calcWrap {
+  display: flex;
+  flex-direction: column;
+}
+
+.question {
+  margin: 10px auto 0 auto;
+  background-color: lightgreen;
+  border-radius: 15px;
+  padding: 10px;
+  max-width: 50vw;
+}
+
+.calculation {
+  padding: 10px 10px;
+  display: inline-block;
+  min-width: 75%;
+  margin: 5px;
+  border-radius: 5px;
+  background-color: rgba(0, 255, 0, .3);
+}
+
+#calcFieldButton {
+  display: block;
+  margin: 0 auto;
+}
+
+.solutionWrap {
+  margin: 0 auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+
+.column {
+  width: 30vw;
+  padding: 0;
+  margin: 0;
+}
+
+.solutionBox {
+  position: relative;
+  margin: 10px auto;
+  padding: 20px;
+  background-color: red;
+  color: white;
+  width: 28vw;
+  height: min-content;
+  text-align: left;
+}
+
+.solutionContent {
+  margin: 0;
+  padding: 0;
+}
+
+.buttonFloat {
+  position: absolute;
+  right: 6px;
+  bottom: 30px;
+}
+
+.buttonFloat2 {
+  position: absolute;
+  right: 6px;
+  bottom: 4px;
+}
+
+.calculations {
+  display: none;
+  height: 50px;
+  background-color: pink;
+}
+
+.calcTable {
+  position: absolute;
+  left: 10px;
+}
+
+.calcSmall {
+  margin: 10px;
+}
+
+#calcInput{
+  text-align: right;
+}
+
+.userAccess {
+  background-color: white;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  width: 30vw;
+  margin: 10% auto 0 auto;
+}
+
+.uaInput {
+  margin: 5px;
+}
+
+.scorebar {
+  width: 80%;
+  background-color: red;
+  padding: 0;
+  margin: auto;
+  height: 10px;
+  display: flex;
+  justify-content: flex-start;
+}
+
+.correctbar {
+  height: 100%;
+  margin: 0;
+  background-color: green;
+}
+
+.submittedData {
+  display: none;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.gradehead {
+  color: green;
+  margin: 30px 0 0 0;
+}
+
+.grade {
+  color: green;
+  font-size: 35pt;
+}
